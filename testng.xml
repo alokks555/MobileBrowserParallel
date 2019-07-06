@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="1">
+	<test name="Android Nokia">
+		<parameter name="deviceModel" value="Nokia 6.1 Plus" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="deviceName" value="DRGID18100708760" />
+		<classes>
+			<class name="com.mobileauto.testclass.Login" />
+		</classes>
+	</test>
+	</suite>
+
+	<!-- <test name="Android One M8">
+		<parameter name="deviceModel" value="One M8" />
+		<parameter name="platformName" value="Android" />
+		<classes>
+			<class name="com.mobileauto.testclass.Login" />
+		</classes>
+	</test>
+</suite> Suite -->

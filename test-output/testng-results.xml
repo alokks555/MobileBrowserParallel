@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68848" started-at="2019-06-06T20:44:17Z" finished-at="2019-06-06T20:45:26Z">
+    <groups>
+    </groups>
+    <test name="Android Nokia" duration-ms="68848" started-at="2019-06-06T20:44:17Z" finished-at="2019-06-06T20:45:26Z">
+      <class name="com.mobileauto.testclass.Login">
+        <test-method status="PASS" signature="beforeExecutingSuite()[pri:0, instance:com.mobileauto.testclass.Login@5f2108b5]" name="beforeExecutingSuite" is-config="true" duration-ms="138" started-at="2019-06-06T20:44:17Z" finished-at="2019-06-06T20:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeExecutingSuite -->
+        <test-method status="PASS" signature="initiateDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mobileauto.testclass.Login@5f2108b5]" name="initiateDriver" is-config="true" duration-ms="17561" started-at="2019-06-06T20:44:17Z" finished-at="2019-06-06T20:44:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia 6.1 Plus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DRGID18100708760]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="verifyElements()[pri:0, instance:com.mobileauto.testclass.Login@5f2108b5]" name="verifyElements" duration-ms="51268" started-at="2019-06-06T20:44:34Z" finished-at="2019-06-06T20:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElements -->
+        <test-method status="PASS" signature="afterExecutingSuite()[pri:0, instance:com.mobileauto.testclass.Login@5f2108b5]" name="afterExecutingSuite" is-config="true" duration-ms="190" started-at="2019-06-06T20:45:26Z" finished-at="2019-06-06T20:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterExecutingSuite -->
+      </class> <!-- com.mobileauto.testclass.Login -->
+    </test> <!-- Android Nokia -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="1" name="Android Nokia(failed)" parallel="tests">
+    <parameter name="deviceModel" value="Nokia 6.1 Plus"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="DRGID18100708760"/>
+    <classes>
+      <class name="com.mobileauto.testclass.Login">
+        <methods>
+          <include name="verifyElements"/>
+          <include name="afterExecutingSuite"/>
+          <include name="initiateDriver"/>
+          <include name="beforeExecutingSuite"/>
+        </methods>
+      </class> <!-- com.mobileauto.testclass.Login -->
+    </classes>
+  </test> <!-- Android Nokia(failed) -->
+</suite> <!-- Failed suite [Suite] -->
